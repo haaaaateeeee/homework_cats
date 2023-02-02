@@ -1,0 +1,46 @@
+.title {
+    color: blueviolet;
+}
+
+.img {
+    width: 300px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.slider {
+    display: flex;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.slider-line {
+    display: flex;
+    height: 305px;
+    width: 600px;
+    background-color: blueviolet;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+button {
+    max-width: 100px;
+    display: flex;
+    align-self: center;
+}
